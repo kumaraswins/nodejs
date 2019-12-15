@@ -9,7 +9,7 @@ Node JS application with
 
   - Socket Communication using socket.io
   - Creation of rooms and broadcast to particular clients
-  - REST apis with token authentication
+  - REST apis with token authentication with JWT
   - Token expiry in 24h
   - Basic security with Helmet
   - Mysql db

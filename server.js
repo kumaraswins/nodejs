@@ -9,6 +9,7 @@ var botRouter = require('./routes/bot');
 var speechRouter = require('./routes/speech');
 var dfRouter = require('./routes/df');
 var navRouter = require('./routes/navigation');
+var videoRouter = require('./routes/video');
 var appRoute = require('./routes/main.js');
 const helmet = require('helmet');
 app.use(helmet.frameguard({ action: 'sameorigin' }));
@@ -20,6 +21,7 @@ app.use('/bot', botRouter);
 app.use('/speech', speechRouter);
 app.use('/df', dfRouter);
 app.use('/nav', navRouter);
+app.use('/video', videoRouter);
 app.use('/', appRoute);
 
 

@@ -18,7 +18,8 @@
     "sequelize": "^4.44.3",
     "snyk": "^1.258.2",
     "socket.io": "^2.3.0",
-    "ssml-builder": "^0.4.3"
+    "ssml-builder": "^0.4.3",
+    "youtube-dl": "^2.2.0"
   },
   "devDependencies": {},
   "scripts": {
